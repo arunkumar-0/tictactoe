@@ -22,7 +22,7 @@ const noMoveLeft = current.board.every ((el) => el !== null);
    </span>
   </>}
   {!winner && noMoveLeft &&  <>
-  <span className='text-green'>X</span> and <span className='text-orange'> O</span>
+  <span className='text-green'>X</span> and <span className='text-orange'> O</span> draws
   
   </>}
      
