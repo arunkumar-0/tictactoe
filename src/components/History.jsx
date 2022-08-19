@@ -1,6 +1,6 @@
 import React from 'react'
 
-const History = ({history , moveTo , currentMove}) => {
+function History({history , moveTo , currentMove}) {
   return (
  <div className='history-wrapper'>
    <ul className='history'>
@@ -24,6 +24,6 @@ const History = ({history , moveTo , currentMove}) => {
    </ul>
 </div>
   );
-};
+}
 
 export default History

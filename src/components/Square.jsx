@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Square = ({ value, onClick, isWinningSquare }) => {
+function Square({ value, onClick, isWinningSquare }) {
   return (
     <button
       type="button"
@@ -12,6 +12,6 @@ const Square = ({ value, onClick, isWinningSquare }) => {
       {value}
     </button>
   );
-};
+}
 
 export default Square;
